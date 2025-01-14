@@ -122,7 +122,7 @@ bash ./nesaSetup.sh
  - Copy your token
  
  ![Ảnh](./img/10.png)
- - Pase in here
+ - Paste in here
  
  ![Ảnh](./img/11.png)
  - Go to [Leap wallet](https://chromewebstore.google.com/detail/leap-cosmos-wallet/fcfcfllfndlomdhbehjjcoimbgofdncg?utm_source=website&utm_medium=permanent-website&utm_campaign=permanent) setup wallet -> connect
@@ -137,7 +137,7 @@ bash ./nesaSetup.sh
  - Select chain get privatekey
  
  ![Ảnh](./img/15.png)
- - Pase in here
+ - Paste in here
  
  ![Ảnh](./img/16.png)
  >Enter
