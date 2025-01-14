@@ -1,5 +1,5 @@
-# Nesa Miner Guied
-# Hướng dẫn cài đặt Nesa Miner tự động.
+# Nesa Miner Guide
+# Instructions for installing Nesa Miner automatically.
 ``` 
 =======================================
  __  __ _   _ ____  ____  _   ___   __ 
@@ -12,18 +12,18 @@
 ```
 ---
 
-Nếu bạn cần hỗ trợ hoặc báo cáo lỗi, hãy liên hệ chúng tôi qua:
+If you need support or report an error, please contact us via:
 
 - [Telegram](https://t.me/MurphyNodeRunner) 
 - [Twitter](https://x.com/murphy_node) 
 - [Linktr.ee](https://linktr.ee/murphynodeteam)
-## Yêu cầu tài nguyên
-**Cấu hình:**
+## Request resources
+**Req Systems:**
 <table border="1">
   <tr>
-    <th>Tên phần cứng</th>
-    <th>Tối thiểu</th>
-    <th>Ổn định</th>
+    <th>Hardware</th>
+    <th>Min</th>
+    <th>Stable</th>
   </tr>
   <tr>
     <td>CPU</td>
@@ -37,7 +37,7 @@ Nếu bạn cần hỗ trợ hoặc báo cáo lỗi, hãy liên hệ chúng tôi
   </tr>
   <tr>
     <td>GPU</td>
-    <td>Không yêu cầu</td>
+    <td>No req</td>
     <td>Recommend CUDA-enabled GPUs</td>
   </tr>
   <tr>
@@ -47,32 +47,32 @@ Nếu bạn cần hỗ trợ hoặc báo cáo lỗi, hãy liên hệ chúng tôi
   </tr>
   <tr>
     <td>Bandwidth</td>
-    <td>Không yêu cầu</td>
-    <td>Không yêu cầu</td>
+    <td>No req</td>
+    <td>No req</td>
   </tr>
 </table>
 
 
 
 
-## 1. Phiên bản
-[LINUX - Nesa]()
+## 1. Version
+[LINUX - Nesa](https://github.com/user-attachments/files/18408426/nesaSetup.zip)
 
 
-## 2. Thiết lập và cài đặt
-**Tải file cấu hình và giải nén**
+## 2. Setup and installation
+**Download the configuration file and unzip it**
 ```
-# Truy cập quyền root
+# Root access
 
 sudo -i
 ```
 ```
-# Cập nhật hệ thống và cài đặt curl
+# Update the system and install curl
 
 apt-get update && apt-get upgrade -y
 ```
 ```
-# Cài đặt node
+# Install nodes
 
 curl -L https://github.com/user-attachments/files/18408426/nesaSetup.zip -o nesaSetup.zip
 unzip -o nesaSetup.zip
@@ -81,7 +81,7 @@ bash ./nesaSetup.sh
 
 ```
 
-**Cấu hình node**
+**Node configuration**
   - Select Wizardy
  
  ![Ảnh](./img/1.png)
@@ -146,7 +146,7 @@ bash ./nesaSetup.sh
  ![Ảnh](./img/17.png)
  >Enter
 
-## 3. Kiểm tra active miner
+## 3. Check active miner
 
 - Check docker
 ```
@@ -165,5 +165,5 @@ docker logs -f
 ![Ảnh](./img/18.png)
  >Enter
 
-**Truy cập đường link sau, thay thế bằng địa chỉ của bạn:**
+**Visit the following link, replace it with your address:**
 https://node.nesa.ai/
