@@ -74,9 +74,11 @@ apt-get update && apt-get upgrade -y
 ```
 # Cài đặt node
 
-bash <(curl -s https://raw.githubusercontent.com/Murphylabs2024/Nesa-minner/refs/heads/main/code/nesaSetup.sh) && \
-chmod +x ./nesaSetup.sh && \
+curl -L https://github.com/user-attachments/files/18408426/nesaSetup.zip -o nesaSetup.zip
+unzip -o nesaSetup.zip
+chmod +x ./nesaSetup.sh
 bash ./nesaSetup.sh
+
 ```
 
 **Cấu hình node**
