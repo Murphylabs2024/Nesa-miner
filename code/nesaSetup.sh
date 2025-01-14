@@ -53,4 +53,4 @@ curl -fsSL https://raw.githubusercontent.com/nesaorg/bootstrap/master/bootstrap.
 chmod +x bootstrap.sh
 ./bootstrap.sh
 
-echo "Installation complete. Please log out and log back in to apply the Docker group changes."
+echo "Install nesa miner success!"
