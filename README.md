@@ -74,7 +74,7 @@ apt-get update && apt-get upgrade -y
 ```
 # Cài đặt node
 
-bash <(curl -s ) && \
+bash <(curl -s https://raw.githubusercontent.com/Murphylabs2024/Nesa-minner/refs/heads/main/code/nesaSetup.sh) && \
 chmod +x ./nesaSetup.sh && \
 bash ./nesaSetup.sh
 ```
@@ -88,8 +88,7 @@ bash ./nesaSetup.sh
   
  ![Ảnh](./images/t3rn-logs.jpg
 )
-  > Khi thấy logs được sync là bạn đã cài đặt thành công
-  > BRN nhận được phụ thuộc vào số lượng bid thành công của bạn (tăng gas sẽ dễ dàng nhận được bid hơn)
+
 
 ## 3. Kiểm tra active miner
 **Truy cập đường link sau, thay thế bằng địa chỉ của bạn:**
