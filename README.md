@@ -155,15 +155,13 @@ docker ps
 
 - Check logs docker
 ```
-docker logs -f 
+docker logs -f orchestrator
 ```
 
 - Get your NODE ID
 ```
-
+cat .nesa/identity/node_id.id
 ```
-![Ảnh](./img/18.png)
- >Enter
 
-**Visit the following link, replace it with your address:**
+**Visit the following link, replace it with your node_id:**
 https://node.nesa.ai/
